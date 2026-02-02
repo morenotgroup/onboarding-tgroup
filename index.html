@@ -1,66 +1,57 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Onboarding T.Group</title>
-
-    <!-- Fonte (pode trocar por Inter se preferir) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onboarding T.Group — 2026</title>
+    <meta name="description" content="Onboarding T.Group 2026 — cultura, rotinas, benefícios e performance." />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
-    <header class="hud" aria-label="Barra de navegação do onboarding">
-      <div class="hudLeft">
-        <img class="hudLogo" src="assets/logos/tgroup-logo.webp" alt="Logo do T.Group" />
-        <div class="hudText">
-          <div id="hudTitle" class="hudTitle">Onboarding T.Group</div>
-          <div id="hudSub" class="hudSub">Boas-vindas • Cultura • Rotinas • Benefícios • Performance 2026</div>
+    <div id="app">
+      <div class="bg" aria-hidden="true"></div>
+
+      <main id="stage" class="stage" role="main"></main>
+
+      <div class="hud">
+        <div class="hud-left">
+          <div class="pill" id="hudBrand">T.Group • 2026</div>
+          <div class="hud-note" id="hudNote">Use este material como base e personalize por área.</div>
+        </div>
+
+        <div class="hud-center">
+          <div class="hud-meta" id="hudMeta">
+            <div class="hud-title" id="hudTitle">Onboarding T.Group</div>
+            <div class="hud-subtitle" id="hudSubtitle">Boas-vindas • Cultura • Rotinas • Benefícios • Performance 2026</div>
+            <div class="hud-help" id="hudHelp">← → / Space • O overview • Esc fechar</div>
+          </div>
+        </div>
+
+        <div class="hud-right">
+          <div class="hud-contact">
+            <span class="hud-contact-label">Contato:</span>
+            <a class="pill pill-action" id="hudContact" href="#" target="_blank" rel="noreferrer">Gente e Cultura</a>
+          </div>
+          <div class="hud-counter" id="hudCounter">1/1</div>
         </div>
       </div>
 
-      <div class="hudRight">
-        <div id="hudCount" class="hudCount">1 / 1</div>
-        <div class="hudHelp" title="Atalhos">
-          <span class="kbd">←</span><span class="kbd">→</span><span class="kbd">Space</span>
-          <span class="sep"></span>
-          <span class="kbd">O</span> overview
+      <section id="overview" class="overview hidden" aria-label="Overview (lista de slides)">
+        <div class="overview-top">
+          <div class="overview-title">Overview</div>
+          <div class="overview-actions">
+            <button class="btn" id="btnCloseOverview" type="button">Fechar (Esc)</button>
+          </div>
         </div>
-      </div>
+        <div id="overviewGrid" class="overview-grid"></div>
+      </section>
 
-      <div class="hudProgress" aria-hidden="true">
-        <div id="progressBar" class="hudProgressBar" style="width:0%"></div>
-      </div>
-    </header>
-
-    <main id="deck" class="deck" aria-label="Slides do onboarding"></main>
-
-    <div id="overlay" class="overlay" aria-hidden="true">
-      <div class="overlayCard">
-        <div class="overlayTitle">Overview</div>
-        <div class="overlayHint">Clique em um slide para abrir. Tecla <span class="kbd">O</span> para fechar.</div>
-        <div id="overviewGrid" class="overviewGrid"></div>
-      </div>
+      <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
     </div>
 
-    <footer class="footer" aria-label="Rodapé">
-      <div class="footerLeft">
-        <span class="pill">T.Group • 2026</span>
-        <span class="muted">Use este material como base e personalize por área.</span>
-      </div>
-      <div class="footerRight">
-        <span class="muted">Contato:</span>
-        <span class="pill" id="gcContato">Gente e Cultura</span>
-      </div>
-    </footer>
-
-    <script src="content.js"></script>
-    <script src="app.js"></script>
+    <!-- IMPORTANTE: content.js antes de app.js -->
+    <script src="./content.js" defer></script>
+    <script src="./app.js" defer></script>
   </body>
 </html>
