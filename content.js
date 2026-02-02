@@ -90,9 +90,9 @@ window.DECK = {
         { title: "T.Youth", text: "Operação e atendimento de formaturas e bailes de gala. Ritmo alto, execução e encantamento." },
         { title: "T.Venues", text: "Captação, gestão e operação de espaços. Experiência e padrão de entrega." },
         { title: "T.Brands", text: "Relação com marcas, ativações e parcerias. Comercial + estratégia + execução." },
-        { title: "T.Dreams", text: "Festivais e verticais (ex.: Ginga, Leto). Projetos que viram memória." }
+        { title: "T.Dreams", text: "Festivais e festas para o público 25+ (ex.: Raiz - Lauana, Tudo vira Reggae - Maneva, Ginga 2026). Projetos que viram memória." }
       ],
-      badges: ["Sem texto gigante", "Direto ao ponto", "Você consegue explicar em 2 minutos"]
+      
     },
 
     // 5–8 — EMPRESAS (DEEP) — some no modo 40
@@ -137,11 +137,11 @@ window.DECK = {
       id: "tdreams",
       layout: "bullets",
       title: "T.Dreams",
-      subtitle: "Festivais e verticais: de ideia a experiência.",
+      subtitle: "Festivais e festas 25+: de ideia a experiência.",
       pace: "deep",
       bullets: [
         "Construção e gestão de projetos",
-        "Ex.: Ginga e Leto como frentes do ecossistema",
+        "Ex.: Ginga como frentes do ecossistema",
         "Planejamento, produção e padrão de entrega"
       ]
     },
