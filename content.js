@@ -207,7 +207,7 @@ window.DECK = {
         "Folga de aniversário (regras e forma de solicitar com GC)",
         "Rituais sociais que fortalecem vínculo (sem virar obrigação chata)"
       ],
-      badges: ["Leve", "Prático", "Sem burocracia"]
+      
     },
 
     // 13 — PROCESSOS OBRIGATÓRIOS
@@ -241,7 +241,7 @@ window.DECK = {
         "Se mudou salário/área: GC valida o valor antes do envio",
         "Envio fora do prazo = risco real de atraso e retrabalho"
       ],
-      badges: ["Regra simples", "Comunicação oficial", "Sem achismo"]
+      
     },
 
     // 15 — ALMOÇO
@@ -255,7 +255,7 @@ window.DECK = {
         "Enquete: ordem de chegada do almoço",
         "Objetivo: previsibilidade, agilidade e menos confusão na sede"
       ],
-      badges: ["Rotina da casa", "Ajuda todo mundo", "Rápido de responder"]
+      
     },
 
     // 16 — ESTACIONAMENTO
@@ -338,7 +338,7 @@ window.DECK = {
         "Competências: comunicação, decisão, delegação, segurança psicológica",
         "GC apoiando: guias, acompanhamento e trilhas"
       ],
-      badges: ["2026 é o ano", "Sem “powerpoint corporativo”", "Na prática"]
+      
     },
 
     // 21 — AMBIENTE SEGURO
@@ -368,7 +368,7 @@ window.DECK = {
       subtitle: "Esse slide vira seu “hub oficial”. Troque os links e pronto.",
       qrLabel: "Abra este hub no celular",
       // DICA: coloque aqui o link da SUA página/hub (pode ser um Notion, Google Site, ou uma página do seu próprio Vercel)
-      qrUrl: "https://seu-link-oficial-aqui.vercel.app",
+      qrUrl: "em breve",
       links: [
         { icon: "🧾", label: "NF-Express", url: "https://seu-link-nf-express-aqui", note: "Envio mensal de nota fiscal (PJ)" },
         { icon: "🍽️", label: "Enquete do almoço", url: "https://seu-link-enquete-almoco-aqui", note: "Quem vem amanhã + organização" },
@@ -379,7 +379,7 @@ window.DECK = {
         { icon: "🎓", label: "Capacitar (cursos)", url: "https://seu-link-capacitar-aqui", note: "Cursos e trilhas (PJ)" },
         { icon: "🧠", label: "Benefícios (guia)", url: "https://seu-link-beneficios-aqui", note: "TotalPass, Petin, Belas Artes e regras" }
       ],
-      badges: ["Atualize só os links", "O QR já aponta pro hub", "Fica lindo em TV/Projetor"]
+      
     },
 
     // 23 — 30/60/90 (fechamento)
