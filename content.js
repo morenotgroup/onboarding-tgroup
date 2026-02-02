@@ -41,7 +41,7 @@ window.DECK = {
         "Benefícios PJ + desenvolvimento (Performance, PDI e Lideranças 2026)",
         "Onde estão as coisas (hub de links + QR)"
       ],
-      badges: ["Duração sugerida: 40–60 min", "Formato: deck navegável", "Atualizável em 1 arquivo (content.js)"]
+      
     },
 
     // 2 — QUEM SOMOS
